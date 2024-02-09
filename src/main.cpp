@@ -32,7 +32,7 @@ class $modify(MyPauseLayer,PauseLayer)
 		auto menu = CCMenu::create();
 		menu->setID("hidePauseMenuMenu");
 		menu->addChild(button);
-		menu->setPosition(25, 25);
+		menu->setPosition(Mod::get()->getSettingValue<int64_t>("x-pos") * CCDirector::get()->getScreenRight() / 100, Mod::get()->getSettingValue<int64_t>("y-pos") * CCDirector::get()->getScreenTop() / 100);
 		this->addChild(menu);
 		MyPauseLayer::changeVisibility(m_showPause);
 	}
