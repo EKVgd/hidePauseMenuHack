@@ -6,6 +6,7 @@
 	"name": "Hide pause menu hack",
 	"developer": "EKV",
 	"description": "Lets you hide the pause menu.",
+	"repository": "https://github.com/EKVgd/hidePauseMenuHack",
 	"settings": {
         	"x-pos": {
             		"name": "X Position",
